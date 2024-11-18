@@ -1,0 +1,37 @@
+.place-order{
+    /* align-items: center; */
+    /* gap: 50px; */
+    /* justify-content: space-between; */
+    margin-top:50px;
+}
+
+.time-slot-selection{
+    padding: 5px;
+}
+
+.time-slot-selection b{
+    font-family: monospace;
+    font-size: 17px;
+}
+
+.time-slot{
+    padding: 10px;
+    border: 2px dashed tomato;
+    border-radius: 20px;
+    margin-left: 10px;
+    
+}
+
+.cart-total h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+
+
+@media (min-width:750px){
+    .place-order{
+        margin-left:20vw;
+        margin-right:20vw;
+    }
+    
+}

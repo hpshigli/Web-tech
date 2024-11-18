@@ -1,0 +1,140 @@
+.explore-canteen {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .explore-canteen h1 {
+    font-size: 48px;
+    font-weight:bold;
+    background: linear-gradient(
+      90deg,
+      rgba(255, 0, 0, 1) 9%,
+      rgba(253, 130, 29, 1) 25% 
+      /* rgba(253, 130, 29, 1)10% */
+    );
+  
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .explore-canteen-text{
+      max-width: 60%;
+  }
+  
+  .explore-canteen-list{
+      display: flex;
+      justify-content:center;
+      /* align-items: center; */
+      gap: 80px;
+      text-align: center;
+      margin: 20px 0px;
+      overflow-x: scroll;
+      
+  }
+  
+  .explore-canteen-list::-webkit-scrollbar{
+      display: none;
+  }
+  
+  .explore-canteen-list-item img{
+      width: 7.5vw;
+      min-width: 80px;
+      cursor: pointer;
+      border-radius: 50%;
+      transition: 0.2s;
+  }
+  
+  .explore-canteen-list-item p{
+      margin-top: 5px;
+      color: rgb(0, 0, 0);
+      font-size: max(1.6vw,16px);
+      cursor: pointer;
+      font-weight: 700;
+  }
+  
+  .explore-canteen hr{
+      margin: 5px 0px;
+      height: 2px;
+      background-color:darkgray;
+      border: none;
+  }
+  
+  .explore-canteen-list-item .active{
+      border: 4px tomato;
+      border-style:dotted;
+      border-radius: 50px;
+      padding: 5px;
+      transition: 0.2s;
+  }
+  
+  @media (max-width:1050px) {
+      .explore-canteen-text{
+          max-width: 100%;
+          font-size: 14px;
+      }
+  
+      .explore-canteen h1{
+          font-size: 35px;
+          background: linear-gradient(
+              90deg,
+              rgba(255, 0, 0, 1) ,
+              rgba(253, 130, 29, 1) 65% 
+              /* rgba(253, 130, 29, 1)10% */
+            );
+          
+            background-clip: text;
+            color: transparent;
+      }
+
+      .explore-canteen-list{
+        gap: 40px;
+      }
+  }
+
+  @media (max-width:750px){
+
+    .explore-canteen h1{
+        font-size: 25px;
+    }
+
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

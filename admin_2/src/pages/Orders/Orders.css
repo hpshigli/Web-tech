@@ -1,0 +1,75 @@
+.order-item{
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr .5fr;
+    align-items: start;
+    gap: 30px;
+    border: 2px dashed red;
+    padding: 20px;
+    margin: 20px 0px;
+    font-size: 15px;
+    color: darkslategrey;
+}
+
+.order h2,h4{
+    color: black;
+}
+
+.order-item-food{
+    font-weight: 500;
+}
+
+.order-update{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.order-update select,button{
+    background-color: rgba(255, 68, 0, 0.713);
+    color: rgb(256,256, 256);
+    padding: 10px;
+    outline: wheat;
+    border-radius: 10px;
+    width: max(10vw,120px);
+    border: 2px solid orangered;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.order-update button:hover{
+    background-color: orangered;
+    color: white;
+}
+
+.date-picker{
+    padding: 15px;
+    border: 3px tomato dotted;
+    border-radius: 15px;
+}
+
+@media (max-width:1000px) {
+    .order-item{
+        grid-template-columns: 0.5fr 0.5fr;
+        font-size: 15px;
+        gap: 10px;
+    }
+}
+
+@media (max-width:750px) {
+    .order-update select,button{
+        font-size: 12px;
+    }
+
+    .order-update{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+@media (max-width:475px) {
+    .order-item{
+        grid-template-columns: 1fr;
+        font-size: 15px;
+    }
+}
+
+}

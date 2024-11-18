@@ -1,0 +1,127 @@
+.header{
+    height: 39.5vw;
+    margin: 0px auto ;
+    margin-top: 100px;
+    background:url('/header_icon3.png') no-repeat;
+    background-size: contain;
+    border-radius: 30px;
+    position: relative;
+    
+}
+
+/* .header img{
+    height: 34vw;
+    background-size: contain;
+    position: relative;
+} */
+
+.header-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap:1.5vw;
+    align-items: start;
+    max-width: 50%;
+    bottom: 18%;
+    left: 3vw;
+    animation: fadeIn 3s;
+}
+
+.header-contents h2{
+    font-weight: 500;
+    color: wheat;
+    font-size: max(4.5vw,22px);
+}
+
+.header-contents p{
+    font-weight: 400;
+    color: whitesmoke;
+    font-size: 1vw;
+    max-width: 25vw;
+}
+
+.header-contents button{
+    border: none;
+    color:black;
+    border-radius: 10px;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: aliceblue;
+    font-size: max(1vw,13px);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+.header-contents button:hover{
+    background-color:orange;
+    color: aliceblue;
+}
+
+@media (max-width:1050px){
+
+    .header-contents{
+
+        max-width: 45%;
+    }
+    
+}
+
+@media (max-width:750px){
+
+    .header-contents{
+        max-width: 65%;
+    }
+
+    .header-contents p{
+        display: none;
+    }
+
+    .header-contents button{
+        padding: 2vw;
+    }
+
+    .header{
+        margin-left: -20px;
+        margin-right: -20px;
+        height: 45.5vw;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
