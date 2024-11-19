@@ -3,13 +3,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    position:fixed;
     z-index: 99;
     background-color: #ffecd3;
     width: 100%;
     top: 0;
     left: 0;
-    box-sizing: border-box; /* Added this to include padding in width calculation */
+    box-sizing: border-box; 
     /* box-shadow: 10px 2px 10px rgba(0, 0, 0, 0.1); */
     transition: all 0.3s ease;
 }

@@ -5,10 +5,9 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.896);
   display: grid;
-  
-  
-  
+  overflow-y: hidden;
 }
+
 .login-popup-container {
   place-self: center;
   width: max(23vw, 330px);
